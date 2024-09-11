@@ -1,0 +1,102 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'index</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>
+        body {
+            margin: 50;
+            padding: 100;
+            font-family: Arial, sans-serif;
+            background-color: #ece8e8; /* Couleur de fond */
+        }
+        .bande {
+            width: 100%;
+            height: 100%; /* Ajustez selon vos besoins */
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); /* Bande arc-en-ciel */
+        }
+        .bande img {
+            width: 100%;
+            height: auto;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .bande .overlay {
+            position: relative;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(245, 11, 11);
+            font-size: 25px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .bande a {
+            display: block;
+            width:100%;
+            height: 100%;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="Mangakas" > 
+		<div class="Liens" >
+			<a href="index.html">
+			Acceuil
+			</a>
+			<a href="FAQ.html">
+				FAQ
+			</a>
+			<a href="Interets.html">
+				Sites d'Interêts
+			</a>
+			<a href="Plan.html">
+				Plan Site
+			</a>
+			<a href="APropos.html">
+				A propos 
+			</a>
+		</div>    
+	</div>
+
+    <div class="bande">
+        <a href="APropos.html">
+            <img src="images/dragon_ball.jpg" alt="Dragon Ball">
+            <div class="overlay"></div>
+        </a>
+    </div>
+    <div class="bande">
+        <a href="APropos.html">
+            <img src="images/naruto.jpg" alt="Naruto">
+            <div class="overlay"></div>
+        </a>
+    </div>
+    <div class="bande">
+        <a href="APropos.html">
+            <img src="images/bleach.jpg" alt="Bleach">
+            <div class="overlay"></div>
+        </a>
+    </div>
+    <div class="bande">
+        <a href="APropos.html">
+            <img src="images/demon_slayer.jpg" alt="Demon Slayer">
+            <div class="overlay"></div>
+        </a>
+    </div>
+    <div class="bande">
+        <a href="APropos.html">
+            <img src="images/one_piece.jpg" alt="One Piece">
+            <div class="overlay"></div>
+        </a>
+    </div> 
+</body>
+
+</html>

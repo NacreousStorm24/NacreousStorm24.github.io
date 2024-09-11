@@ -1,0 +1,55 @@
+body {
+border: 10px solid rgb(12, 204, 238); height: auto;
+}
+
+
+.Mangakas{
+    padding: 20px;
+}
+ h5 {
+    margin-top: 0;
+}
+
+.Liens a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Couleurs de fond pour chaque section */
+.Mangakas {
+    background-color: #FFC0CB; /* Rose */
+    border: #98FB98 3px solid;
+}
+
+.Liens {
+    background-color: #ADD8E6; /* Bleu clair */
+}
+
+.Liens a:nth-child(odd) {
+    background-color: #98FB98; /* Vert clair */
+}
+
+.Liens a:nth-child(even) {
+    background-color: #FFA07A; /* Saumon clair */
+}
+
+.Video{
+    float: right;
+}
+
+.Marg_vd{
+    margin-top: 360px;
+    margin-right: 375px;
+}
+
+.Question1{
+font-style: italic;
+background-color: aqua;
+}
+
+.Question2{font-style: oblique
+; background-color: #FFA07A;}
+
+.Question3{font-style: inherit; background-color: chartreuse;}
+
+.Question4{font-style: italic  ; background-color: rgb(235, 17, 151);}
